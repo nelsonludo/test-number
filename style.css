@@ -4,10 +4,9 @@ body{
     box-sizing: border-box;
     background:#ccc;
     overflow: hidden;
-    display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    padding: 25%;
     
 }
 
@@ -16,8 +15,15 @@ h1{
    font-size: 50px;
    font-style: italic;
    word-wrap: break-word;
-   word-break: break-all;
    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
    text-align: center;
    text-transform: uppercase;
+}
+
+.form{
+    display: flex;
+}
+#change-again{
+    display: none;
+    margin:50px ;
 }
